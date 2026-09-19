@@ -3,26 +3,26 @@ using UnityEngine.AI;
 
 public class Chaser : MonoBehaviour
 {
-    public Transform sora;
-    private NavMeshAgent aros;
+    public Transform target;
+    private NavMeshAgent agent;
 
     void Start()
     {
-        aros = GetComponent<NavMeshAgent>();
+        agent = GetComponent<NavMeshAgent>();
     }
 
     void Update()
     {
-        if (sora == null) return;
+        if (target == null) return;
 
-        if (transform.position.z * sora.position.z < 0)
+        if (transform.position.z * target.position.z < 0)
         {
             float side = transform.position.z > 0 ? 1.6f : -1.6f;
-            aros.SetDestination(new Vector3(-6f, transform.position.y, side));
+            agent.SetDestination(new Vector3(-6f, transform.position.y, side));
         }
         else
         {
-            aros.SetDestination(sora.position);
+            agent.SetDestination(target.position);
         }
     }
 }
