@@ -8,5 +8,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Week 1/Scenes/MainScene.unity
     guid: e652929cd18459d4ba8c3b598ccbd9a2
+  - enabled: 1
+    path: Assets/Week2/Scenes/Week2Scene.unity
+    guid: 0eec0f7d54972ce45ab7dc2b806f4066
+  - enabled: 1
+    path: Assets/Week3/Scenes/Activity 3.unity
+    guid: 33000000000000000000000000000030
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
