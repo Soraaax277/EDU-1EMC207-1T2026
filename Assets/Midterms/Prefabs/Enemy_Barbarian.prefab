@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1002000000000000001
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: cd18c6be74af95941bcfa6135d84868f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cd18c6be74af95941bcfa6135d84868f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cd18c6be74af95941bcfa6135d84868f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cd18c6be74af95941bcfa6135d84868f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cd18c6be74af95941bcfa6135d84868f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cd18c6be74af95941bcfa6135d84868f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cd18c6be74af95941bcfa6135d84868f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cd18c6be74af95941bcfa6135d84868f, type: 3}
+      propertyPath: m_Name
+      value: Enemy_Barbarian
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cd18c6be74af95941bcfa6135d84868f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1002000000000000003}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cd18c6be74af95941bcfa6135d84868f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1002000000000000004}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cd18c6be74af95941bcfa6135d84868f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1002000000000000005}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cd18c6be74af95941bcfa6135d84868f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1002000000000000006}
+  m_SourcePrefab: {fileID: 100100000, guid: cd18c6be74af95941bcfa6135d84868f, type: 3}
+--- !u!1 &1002000000000000002 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cd18c6be74af95941bcfa6135d84868f, type: 3}
+  m_PrefabInstance: {fileID: 1002000000000000001}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &1002000000000000003
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1002000000000000001}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002000000000000002}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 1.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!136 &1002000000000000004
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1002000000000000001}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002000000000000002}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &1002000000000000005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1002000000000000001}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002000000000000002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42cf77c6240fdf0418f60f680c26331f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Midterms.EnemyAI
+  Player: {fileID: 0}
+  Waypoints: []
+  ViewRadius: 6
+  ViewAngle: 85
+  ChaseViewRadius: 8
+  ChaseViewAngle: 105
+  HearingRadius: 6.5
+  CatchDistance: 1.15
+  PatrolSpeed: 1.5
+  AlertSpeed: 1.6
+  ChaseSpeed: 2.6
+  WaypointTolerance: 0.5
+  RotationSpeed: 8
+  LookAtSoundDuration: 0.8
+  AlertInvestigateDuration: 2
+  RepathInterval: 0.15
+  ObstacleMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  VisionMeshResolution: 32
+  VisionMaterial: {fileID: 0}
+  PatrolVisionColor: {r: 1, g: 0.92, b: 0.016, a: 0.35}
+  AlertVisionColor: {r: 1, g: 0.5, b: 0, a: 0.45}
+  ChaseVisionColor: {r: 1, g: 0, b: 0, a: 0.55}
+--- !u!114 &1002000000000000006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1002000000000000001}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002000000000000002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55a1e2f3d4c5b6a78901234567890abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Midterms.CharacterAnimatorController
+  TargetAnimator: {fileID: 0}
